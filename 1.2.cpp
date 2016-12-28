@@ -13,37 +13,37 @@ using namespace std;
 int main(void)
 {
 	setlocale(LC_ALL, "rus");
-  cout << "Opredelenie formy figury";
-	cout << "Vvedite x";
-    cin >> x;
-    switch ( x )
+        cout << "Определение формы фигуры";
+	cout << "Введите x";
+        cin >> x;
+        switch ( x )
 	{
         case (1):            
-            printf("\tTochka\n");
+            printf("\tТочка\n");
             break;
         case (2):
-            printf("\tOtrezok\n");
+            printf("\tОтрезок\n");
             break;
         case (3):
-            printf("\tTreugolnik\n");
+            printf("\tТреугольник\n");
             break;
         case (4):
-            printf("\tKvadrat\n");
+            printf("\tКвадрат\n");
             break;
 	case (5):            
-            printf("\tPyatiugolnik\n");
+            printf("\tПятиугольник\n");
             break;
         case (6):
-            printf("\tShestiugolnik\n");
+            printf("\tШестиугольник\n");
             break;
         case (7):
-            printf("\tSemiugolnik\n");
+            printf("\tСемиугольник\n");
             break;
         case (8):
-            printf("\tVosmiugolnik\n");
+            printf("\tВосьмиугольник\n");
             break;
         default:
-            printf("\tNevernoe znachenie\n");
+            printf("\tНеверное значение\n");
     }
     getchar();
     return 0;
